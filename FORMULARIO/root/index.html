@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Clase 16 Front</title>
+</head>
+
+<body>
+    <header>
+        <h5>20% de descuentos en todos los productos</h5>
+
+        <h2>Nombre Tienda</h2>
+
+        <nav>
+            <ul>
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="" method="POST"></form>
+
+        <section class="izquierda">
+            <label for="name">*Nombre</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="date">Fecha</label>
+            <input type="date" name="date" id="date">
+
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+        </section>
+
+        <section class="derecha">
+            <select name="especie" id="especie" required>
+                <option value="mutante">mutante</option>
+                <option value="zombie">zombie</option>
+                <option value="hombre-lobo">hombre-lobo</option>
+                <option value="vampiro">vampiro</option>
+                <option value="fae">fae</option>
+            </select>
+
+            <label for="foto-de-perfil">Agregar foto de perfil</label>
+            <input type="file" name="foto-de-perfil" id="foto-de-perfil">
+
+            <label for="poderes">Poderes</label>
+            
+            <label for="volar">Volar</label>
+            <input type="checkbox" name="poderes" id="volar" value="Volar">
+
+            <label for="superinteligencia">Superinteligencia</label>
+            <input type="checkbox" name="poderes" id="superinteligencia" value="Superinteligencia">
+
+            <label for="vista-de-rayo-láser">Vista de rayo láser</label>
+            <input type="checkbox" name="poderes" id="vista-de-rayo-láser" value="Vista de rayo láser">
+
+            <label for="billetera-gorda">Billetera gorda</label>
+            <input type="checkbox" name="poderes" id="billetera-gorda" value="Billetera gorda">
+
+            <h2>Tipo de personaje</h2>
+            
+            <input type="radio" name="heroe" id="heroe">
+            <label for="heroe">Héroe/Heroína</label>
+
+            <input type="radio" name="villano" id="villano">
+            <label for="villano">Villano/Villana</label>
+
+        </section>
+    </main>
+    
+</body>
+</html>

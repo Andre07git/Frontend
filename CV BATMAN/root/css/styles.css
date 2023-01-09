@@ -1,0 +1,80 @@
+body {margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {background-color: #E6E6E6;
+        display: flex;
+        margin: 0px;
+}
+
+header img {position: relative;
+            justify-content: center;
+            margin: 20.91px 670px;
+}
+
+main {background-color: #C4C4C4;
+    margin-bottom: 128px;
+    margin-top: 0px;
+}    
+
+h1 {color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 0px;
+}
+
+h2 {color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+
+.datos-personales {color: #000000;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: bold;
+                    font-size: 15px;
+                    font-style: italic;
+}
+
+span {color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.ul-años {list-style-type: none;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal
+}
+
+footer {display: flex;
+        background-color: #005677;
+        color: #FFFFFF;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+}
+
+h4 {justify-content: center;
+    position: relative;
+    margin-top: 11px;
+    padding: 13px;
+}
+
+footer img {width: 20px;
+            height: 20px;
+            position: relative;
+            justify-content: center;
+            margin-top: 9px;
+            margin-bottom: 8px;
+            padding: 13px;
+}
